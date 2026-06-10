@@ -252,4 +252,12 @@ Therefore, XGBoost is useful for **interpretability**, but less suitable for **t
 
 Dylan Richard
 
+## 🎓 10. Undergraduate Thesis Reference
+
+This project was conducted as part of my undergraduate thesis (skripsi), which is written in Bahasa Indonesia.
+
+**Translated Title:**  
+*Predictive Analytics Project for Comparing XGBoost and LSTM Models in Estimating Dengue Cases in Indonesia*
+
+The full thesis document (Indonesian version), titled `6162001168_Dylan Richard_Thesis Paper`, is included in this repository for reference.
 
