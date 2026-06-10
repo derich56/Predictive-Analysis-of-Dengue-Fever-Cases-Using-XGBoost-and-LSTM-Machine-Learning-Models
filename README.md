@@ -10,7 +10,7 @@ The objective is not only to achieve high predictive performance, but also to ev
 
 ## 📂 2. Dataset
 
-The dataset is sourced from official **Indonesia Health Profile reports (2018–2022)**.
+The dataset is sourced from official Indonesia Health Profile reports (2018–2022) and is stored in the file `DBD_Indonesia.xlsx`.
 
 ### 📌 Data Characteristics
 - Coverage: 34 provinces in Indonesia  
@@ -79,6 +79,10 @@ Two models were implemented to compare different modeling approaches:
 - Train-test evaluation  
 - Cross-validation for XGBoost  
 - Training vs validation loss monitoring (LSTM)  
+
+
+### 3.5. Implementation Details
+The analysis and modeling processes were implemented using Python in a Google Colab environment, with the code stored in the notebook 'dbd_analysis.ipynb'.
 
 ---
 
