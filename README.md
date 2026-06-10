@@ -32,18 +32,44 @@ The dataset is sourced from official Indonesia Health Profile reports (2018–20
 ## ⚙️ 3. Project Workflow
 
 ### 3.1. Data Preparation
-- Data cleaning and validation (no missing values found)  
-- One-hot encoding for categorical features  
-- Feature scaling (Min-Max normalization for LSTM)  
-- Train-test split (80% train, 20% test)  
+
+The data preparation stage was conducted to ensure data quality, consistency, and suitability for machine learning and deep learning models.
+
+- **Data cleaning and validation**  
+  The dataset was inspected for missing values, inconsistencies, and anomalies. No missing values were found, indicating that the dataset was complete and suitable for further analysis.
+
+- **Feature encoding**  
+  Categorical variables (e.g., province identifiers) were transformed using one-hot encoding to convert them into a numerical format compatible with machine learning models.
+
+- **Feature scaling**  
+  Min-Max normalization was applied to the input features for the LSTM model. This scaling ensures that all variables are on a similar range, improving training stability and convergence in neural networks.
+
+- **Train-test split**  
+  The dataset was divided into training and testing sets using an 80:20 ratio.  
+  - The training set was used to fit the models  
+  - The testing set was used to evaluate model generalization on unseen data  
+
+This preprocessing pipeline ensures that the models are trained on clean, well-structured, and properly scaled data, improving both performance and reliability.
 
 ---
 
 ### 3.2. Exploratory Data Analysis (EDA)
-- Analysis of dengue case distributions  
-- Identification of key socio-demographic drivers  
-- Comparison across provinces  
-- Data validation and consistency checks  
+
+Exploratory Data Analysis (EDA) was conducted to understand the distribution and characteristics of dengue cases as well as the relationships between variables.
+
+- **Analysis of dengue case distributions**  
+  The distribution of dengue cases was analyzed across provinces and years to identify general trends, variability, and potential outliers in the data.
+
+- **Identification of key socio-demographic drivers**  
+  Relationships between dengue cases and socio-demographic variables, such as population density, Human Development Index (HDI), and healthcare infrastructure, were examined to identify potential predictors influencing the spread of the disease.
+
+- **Comparison across provinces**  
+  A comparative analysis was performed to observe differences in dengue case patterns between provinces, highlighting regional disparities in disease occurrence.
+
+- **Data validation and consistency checks**  
+  The dataset was further evaluated to ensure consistency across variables and years, confirming that the data structure is reliable for modeling.
+
+The EDA results provide important insights into the underlying structure of the data and support the selection of appropriate modeling approaches.
 
 ---
 
