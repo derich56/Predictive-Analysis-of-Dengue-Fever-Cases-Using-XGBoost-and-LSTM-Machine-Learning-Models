@@ -31,6 +31,8 @@ The dataset is sourced from official Indonesia Health Profile reports (2018–20
 
 ## ⚙️ 3. Project Workflow
 
+![Dengue Distribution](project_workflow.png)
+
 ### 3.1. Data Preparation
 
 The data preparation stage was conducted to ensure data quality, consistency, and suitability for machine learning and deep learning models.
