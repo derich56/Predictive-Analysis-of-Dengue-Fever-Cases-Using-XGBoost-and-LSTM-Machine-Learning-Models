@@ -239,10 +239,13 @@ Therefore, XGBoost is useful for **interpretability**, but less suitable for **t
 ---
 
 ## ⚠️ 8. Notes
+
 - Dataset is based on official government reports  
 - Project is developed for academic purposes  
 - Future improvements may include climate and environmental variables  
-
+- It should be noted that results obtained from rerunning the models may differ from those reported in the original thesis.  
+- This variation is primarily caused by the stochastic nature of model training (especially in LSTM) and potential differences in library versions and computational environments.  
+- Despite these variations, the overall findings and model comparison remain consistent, where LSTM outperforms XGBoost in capturing temporal patterns.
 ---
 
 ## 👤 9. Author
