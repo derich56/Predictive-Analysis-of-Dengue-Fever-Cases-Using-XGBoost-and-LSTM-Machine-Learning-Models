@@ -82,7 +82,7 @@ Two models were implemented to compare different modeling approaches:
 
 
 ### 3.5. Implementation Details
-The analysis and modeling processes were implemented using Python in a Google Colab environment, with the code stored in the notebook 'dbd_analysis.ipynb'.
+The analysis and modeling processes were implemented using Python in a Google Colab environment, with the code stored in the notebook `dbd_analysis.ipynb`.
 
 ---
 
