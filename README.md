@@ -150,9 +150,9 @@ A total of **729 parameter combinations** were evaluated.
 - Cross-validation for XGBoost  
 - Training vs validation loss monitoring (LSTM)  
 
-
 ### 3.5. Implementation Details
-The analysis and modeling processes were implemented using Python in a Google Colab environment, with the code stored in the notebook `dbd_analysis.ipynb`.
+
+The analysis and modeling processes were implemented using Python in a Google Colab enviroment. The entire project workflow is documented in the notebook `dbd_analysis.ipynb`.
 
 ---
 
